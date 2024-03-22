@@ -1,3 +1,3 @@
-export const add = (value) => {
+export const add = (value:number) => {
   return value + 1;
 };
