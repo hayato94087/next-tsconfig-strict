@@ -8,7 +8,7 @@ class Rectangle {
   }
  
   getAreaFunction() {
-    return function () {
+    return function (this: Rectangle) {
       return this.width * this.height;
     };
   }
