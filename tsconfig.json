@@ -20,7 +20,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "strictFunctionTypes": false,
     "plugins": [
       {
         "name": "next"

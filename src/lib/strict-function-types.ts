@@ -5,8 +5,8 @@ func1 = (n: number | null | undefined) => {};
 
 // 関数に対してより範囲の狭い引数の型の代入
 let func2: (n: number | null | undefined) => any;
-func2 = (n: number | null) => {};
-func2 = (n: number) => {};
+// func2 = (n: number | null) => {};
+// func2 = (n: number) => {};
 
 // メソッドに対してより範囲の狭い引数の型の代入
 type MethodType = {
